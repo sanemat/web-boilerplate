@@ -1,0 +1,41 @@
+{
+  "name": "@sanemat/waddle",
+  "version": "0.1.0",
+  "author": "Matt (Sanemat) <o.gata.ken@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/sanemat/web-waddle/issues"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.1.3",
+    "@types/node": "^13.7.4",
+    "css-loader": "^3.4.2",
+    "del-cli": "^3.0.0",
+    "eslint": "^6.8.0",
+    "fork-ts-checker-notifier-webpack-plugin": "^2.0.0",
+    "fork-ts-checker-webpack-plugin": "^4.0.4",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^25.1.0",
+    "prettier": "^1.19.1",
+    "style-loader": "^1.1.3",
+    "ts-jest": "^25.2.1",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.8.2",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "homepage": "https://github.com/sanemat/web-waddle#readme",
+  "license": "Apache-2.0",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sanemat/web-waddle.git"
+  },
+  "scripts": {
+    "build": "webpack --color --mode production --config webpack.config.production.js",
+    "prebuild": "del dist",
+    "prettier": "prettier --write src/*.{ts,html,css} *.js",
+    "start": "webpack-dev-server --progress --color --mode development --config webpack.config.development.js",
+    "test": "jest --passWithNoTests"
+  }
+}
