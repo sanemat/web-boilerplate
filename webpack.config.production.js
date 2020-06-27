@@ -8,11 +8,11 @@ const main = ["./src/index.ts"];
 module.exports = {
   context: process.cwd(), // to automatically find tsconfig.json
   entry: {
-    main: main
+    main: main,
   },
   output: {
     path: path.join(process.cwd(), "dist"),
-    filename: "[name].js"
+    filename: "[name].js",
   },
   plugins: [
     new ForkTsCheckerWebpackPlugin({
@@ -36,23 +36,23 @@ module.exports = {
         keepClosingSlash: true,
         minifyJS: true,
         minifyCSS: true,
-        minifyURLs: true
-      }
-    })
+        minifyURLs: true,
+      },
+    }),
   ],
   module: {
     rules: [
       {
         test: /.tsx?$/,
-        use: [{ loader: "ts-loader", options: { transpileOnly: true } }]
+        use: [{ loader: "ts-loader", options: { transpileOnly: true } }],
       },
       {
         test: /\.css$/,
-        use: ["style-loader", "css-loader"]
-      }
-    ]
+        use: ["style-loader", "css-loader"],
+      },
+    ],
   },
   resolve: {
-    extensions: [".tsx", ".ts", ".js"]
-  }
+    extensions: [".tsx", ".ts", ".js"],
+  },
 };
