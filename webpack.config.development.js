@@ -18,7 +18,10 @@ module.exports = {
   },
   plugins: [
     new ForkTsCheckerWebpackPlugin({
-      eslint: true,
+      eslint: {
+        enabled: true,
+        files: "./src/**/*",
+      },
     }),
     new ForkTsCheckerNotifierWebpackPlugin({
       title: "TypeScript",
