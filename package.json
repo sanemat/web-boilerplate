@@ -7,7 +7,7 @@
   },
   "devDependencies": {
     "@types/jest": "^26.0.20",
-    "@types/node": "^14.14.33",
+    "@types/node": "^14.14.34",
     "css-loader": "^5.1.2",
     "del-cli": "^3.0.1",
     "eslint": "^7.22.0",
