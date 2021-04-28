@@ -10,7 +10,7 @@
     "@types/node": "^14.14.41",
     "css-loader": "^5.2.4",
     "del-cli": "^3.0.1",
-    "eslint": "^7.24.0",
+    "eslint": "^7.25.0",
     "fork-ts-checker-notifier-webpack-plugin": "^4.0.0",
     "fork-ts-checker-webpack-plugin": "^6.2.5",
     "html-webpack-plugin": "^5.3.1",
