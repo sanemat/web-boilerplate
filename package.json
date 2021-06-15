@@ -9,7 +9,7 @@
     "@types/jest": "^26.0.23",
     "@types/node": "^15.12.2",
     "css-loader": "^5.2.6",
-    "del-cli": "^3.0.1",
+    "del-cli": "^4.0.0",
     "eslint": "^7.28.0",
     "fork-ts-checker-notifier-webpack-plugin": "^4.0.0",
     "fork-ts-checker-webpack-plugin": "^6.2.10",
