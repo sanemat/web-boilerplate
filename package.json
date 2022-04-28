@@ -14,7 +14,7 @@
     "del-cli": "^4.0.1",
     "eslint": "^8.13.0",
     "fork-ts-checker-notifier-webpack-plugin": "^6.0.0",
-    "fork-ts-checker-webpack-plugin": "^7.2.3",
+    "fork-ts-checker-webpack-plugin": "^7.2.8",
     "html-webpack-plugin": "^5.5.0",
     "jest": "^27.5.1",
     "prettier": "^2.6.2",
