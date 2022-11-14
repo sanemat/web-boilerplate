@@ -10,7 +10,7 @@
     "@types/node": "^18.7.16",
     "@typescript-eslint/eslint-plugin": "^5.36.2",
     "@typescript-eslint/parser": "^5.36.2",
-    "css-loader": "^6.7.1",
+    "css-loader": "^6.7.2",
     "del-cli": "^5.0.0",
     "eslint": "^8.23.0",
     "fork-ts-checker-notifier-webpack-plugin": "^6.0.0",
